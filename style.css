@@ -1,0 +1,31 @@
+.app {
+    max-width: 500px;
+}
+
+.header {
+    margin-bottom: 6px;
+}
+
+.clock,
+.lot {
+    margin-bottom: 6px;
+    padding: 14px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.lot {
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    font-weight: bold;
+}
+
+.lot h1 {
+    margin-top: 0;
+}
+
